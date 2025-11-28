@@ -95,7 +95,7 @@ class AppTheme {
         elevation: 0,
         centerTitle: true,
       ),
-      tabBarTheme: const TabBarTheme(
+      tabBarTheme: const TabBarThemeData(
         labelColor: AppColors.primaryColor,
         unselectedLabelColor: AppColors.secondaryTextColor,
         indicator: UnderlineTabIndicator(
@@ -204,7 +204,7 @@ class AppTheme {
         elevation: 0,
         centerTitle: true,
       ),
-      tabBarTheme: const TabBarTheme(
+      tabBarTheme: const TabBarThemeData(
         labelColor: AppColors.primaryColor,
         unselectedLabelColor: AppColors.darkSecondaryTextColor,
         indicator: UnderlineTabIndicator(
