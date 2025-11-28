@@ -88,9 +88,8 @@ class _DowryCalculatorScreenState extends State<DowryCalculatorScreen> {
       double countryMultiplier = countryValue;
 
       _result =
-          ((baseValue * ageMultiplier * countryMultiplier) +
-              (professionFactor * educationFactor * residenceFactor * 10000)) /
-          2;
+          (baseValue * ageMultiplier * countryMultiplier) +
+          (professionFactor * educationFactor * residenceFactor * 10000);
 
       setState(() {
         _isCalculated = true;
